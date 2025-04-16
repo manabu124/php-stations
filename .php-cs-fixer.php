@@ -5,6 +5,5 @@ $config = new PhpCsFixer\Config();
 return $config
 ->setRiskyAllowed(true)
 ->setRules([
-@PSR2' => true,
-trailing_comma_in_multiline' => true,　// この一行を追加
+'@PSR2' => true
 ]);
