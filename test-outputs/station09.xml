@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/app/tests/Station09" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.290033">
+    <testsuite name="Tests\Station09\QuestionTest" file="/app/tests/Station09/QuestionTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.290033">
+      <testcase name="ageとfull_name要素の追加_password要素を削除した連想配列を返す" class="Tests\Station09\QuestionTest" classname="Tests.Station09.QuestionTest" file="/app/tests/Station09/QuestionTest.php" line="23" assertions="1" time="0.290033">
+        <system-out>Array
+(
+    [0] =&gt; Array
+        (
+            [id] =&gt; 1
+            [last_name] =&gt; 山田
+            [first_name] =&gt; 太郎
+            [age] =&gt; 20
+            [password] =&gt; yamada
+            [full_name] =&gt; 山田太郎
+        )
+
+    [1] =&gt; Array
+        (
+            [id] =&gt; 2
+            [last_name] =&gt; 鈴木
+            [first_name] =&gt; 次郎
+            [password] =&gt; suzuki
+            [full_name] =&gt; 鈴木次郎
+        )
+
+    [2] =&gt; Array
+        (
+            [id] =&gt; 3
+            [last_name] =&gt; 佐藤
+            [first_name] =&gt; 花子
+            [password] =&gt; sato
+            [full_name] =&gt; 佐藤花子
+        )
+
+)
+Array
+(
+    [0] =&gt; Array
+        (
+            [id] =&gt; 1
+            [last_name] =&gt; 山田
+            [first_name] =&gt; 太郎
+            [age] =&gt; 20
+            [password] =&gt; yamada
+            [full_name] =&gt; 山田太郎
+        )
+
+    [1] =&gt; Array
+        (
+            [id] =&gt; 2
+            [last_name] =&gt; 鈴木
+            [first_name] =&gt; 次郎
+            [password] =&gt; suzuki
+            [full_name] =&gt; 鈴木次郎
+            [age] =&gt; 
+        )
+
+    [2] =&gt; Array
+        (
+            [id] =&gt; 3
+            [last_name] =&gt; 佐藤
+            [first_name] =&gt; 花子
+            [password] =&gt; sato
+            [full_name] =&gt; 佐藤花子
+            [age] =&gt; 
+        )
+
+)
+Array
+(
+    [0] =&gt; Array
+        (
+            [id] =&gt; 1
+            [last_name] =&gt; 山田
+            [first_name] =&gt; 太郎
+            [age] =&gt; 20
+            [full_name] =&gt; 山田太郎
+        )
+
+    [1] =&gt; Array
+        (
+            [id] =&gt; 2
+            [last_name] =&gt; 鈴木
+            [first_name] =&gt; 次郎
+            [full_name] =&gt; 鈴木次郎
+            [age] =&gt; 
+        )
+
+    [2] =&gt; Array
+        (
+            [id] =&gt; 3
+            [last_name] =&gt; 佐藤
+            [first_name] =&gt; 花子
+            [full_name] =&gt; 佐藤花子
+            [age] =&gt; 
+        )
+
+)
+Array
+(
+    [0] =&gt; Array
+        (
+            [id] =&gt; 1
+            [last_name] =&gt; 山田
+            [first_name] =&gt; 太郎
+            [age] =&gt; 20
+            [password] =&gt; yamada
+            [full_name] =&gt; 山田太郎
+        )
+
+    [1] =&gt; Array
+        (
+            [id] =&gt; 2
+            [last_name] =&gt; 鈴木
+            [first_name] =&gt; 次郎
+            [password] =&gt; suzuki
+            [full_name] =&gt; 鈴木次郎
+        )
+
+    [2] =&gt; Array
+        (
+            [id] =&gt; 3
+            [last_name] =&gt; 佐藤
+            [first_name] =&gt; 花子
+            [password] =&gt; sato
+            [full_name] =&gt; 佐藤花子
+        )
+
+)
+Array
+(
+    [0] =&gt; Array
+        (
+            [id] =&gt; 1
+            [last_name] =&gt; 山田
+            [first_name] =&gt; 太郎
+            [age] =&gt; 20
+            [password] =&gt; yamada
+            [full_name] =&gt; 山田太郎
+        )
+
+    [1] =&gt; Array
+        (
+            [id] =&gt; 2
+            [last_name] =&gt; 鈴木
+            [first_name] =&gt; 次郎
+            [password] =&gt; suzuki
+            [full_name] =&gt; 鈴木次郎
+            [age] =&gt; 
+        )
+
+    [2] =&gt; Array
+        (
+            [id] =&gt; 3
+            [last_name] =&gt; 佐藤
+            [first_name] =&gt; 花子
+            [password] =&gt; sato
+            [full_name] =&gt; 佐藤花子
+            [age] =&gt; 
+        )
+
+)
+Array
+(
+    [0] =&gt; Array
+        (
+            [id] =&gt; 1
+            [last_name] =&gt; 山田
+            [first_name] =&gt; 太郎
+            [age] =&gt; 20
+            [full_name] =&gt; 山田太郎
+        )
+
+    [1] =&gt; Array
+        (
+            [id] =&gt; 2
+            [last_name] =&gt; 鈴木
+            [first_name] =&gt; 次郎
+            [full_name] =&gt; 鈴木次郎
+            [age] =&gt; 
+        )
+
+    [2] =&gt; Array
+        (
+            [id] =&gt; 3
+            [last_name] =&gt; 佐藤
+            [first_name] =&gt; 花子
+            [full_name] =&gt; 佐藤花子
+            [age] =&gt; 
+        )
+
+)
+</system-out>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>

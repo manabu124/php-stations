@@ -11,5 +11,13 @@ class Question
 
     private function getAnimalName(string $animal): string
     {
+        if ($animal === '猫') {
+            return 'ミケ';
+        } else if ($animal === '犬') {
+            return 'ポチ';
+        } else {
+            return 'わかりません';
+        }
+
     }
 }

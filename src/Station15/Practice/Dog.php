@@ -16,23 +16,23 @@ class Dog
     }
 }
 
-function main() {
+// function main() {
 
-    $i = 100;
+//     $i = 100;
 
-    for ($i=0; $i<=3; $i++) {
-        echo $i;
-    }
+//     for ($i=0; $i<=3; $i++) {
+//         echo $i;
+//     }
 
-    echo $i;
+//     echo $i;
 
-    $animal = new Dog();
-    echo $name; // 出力されない
-    echo $age; // 出力されない
-    echo $animal->name; // 出力される
-}
+//     $animal = new Dog();
+//     echo $name; // 出力されない
+//     echo $age; // 出力されない
+//     echo $animal->name; // 出力される
+// }
 
-echo $i;
-echo $name;
+// echo $i;
+// echo $name;
 
-main();
+// main();

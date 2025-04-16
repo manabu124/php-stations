@@ -6,7 +6,8 @@ $test = [
 1,2,3,
 ];
 if ($test) {echo 'String';}
-echo 'Other';
-}
+echo 'Other';     
+  }
 }
 (new Practice())->main();
+
